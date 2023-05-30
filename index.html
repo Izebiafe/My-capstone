@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="assests/css/style.css">
+  <script src="https://kit.fontawesome.com/8d20eebc7a.js" crossorigin="anonymous"></script>
+
+<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dliz Homes | home</title>
+</head>
+<body>
+  <header>
+    <section class="">
+      <ul>
+        <li><i class="fab fa-facebook-square fa-lg"></i></li>
+        <li><i class="fab fa-twitter-square fa-lg"></i></li>
+        <li><p class="headText">English</p></li>
+        <li><p class="headText">My Page</p></li>
+        <li><p class="headText">Logout</p></li>
+      </ul>
+    </section>
+
+    <section class="navBar">
+      <a href="./index.html" class="logo">
+        <img src="" alt="logo">
+      </a>
+  
+      <!-- ============ Navigation ===================== -->
+      <nav>
+        <div class="navIcon" onclick="toggleMenu()">
+          <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+        </div>
+  
+        <div class="navLinksContainer">
+          <ul class="nav-links">
+            <li class="hover"><a href="./pages/about.html">About</a></li>
+            <li class="hover"><a href="#programs">Program</a></li>
+            <li class="hover"><a href="#featured">Instructors</a></li>
+            <li class="hover"><a href="#sponsor">Sponsor</a></li>
+            <li class="hover"><a href="#">News</a></li>
+            <li class="hover" id="campaign"><a href="#contact"><button type="button">Photo Campaign</button></a></li>
+          </ul>
+        </div>
+  
+      </nav>
+    </section>
+    
+  </header>
+
+  <main>
+
+    <!-- ============= Hero Section ================ -->
+    <section class="heroContainer">
+      <div class="overlay"></div>
+      <div class="heroContent heroText">
+        <h1>"Find Your Own Home!"</h1>
+        <p>Be your own LandLord!</p>
+      </div>
+
+      <div class="heroContent heroIntro">
+        <p>Know what it means to be a home owner <br>and own a piece of Earth.</p>
+      </div>
+
+      <div class="heroContent dateLocation gray">
+        <h1>2023.12.31 (THU) ~ 3 (FRI)</h1>
+        <p>@Bafor, Imole Street, Jtown</p>
+      </div>
+      <div id="programs"></div>
+    </section>
+
+    <!-- ============= Program Section ================ -->
+   <section class="programContainer">
+      <div class="programOverlay"></div>
+      <div>
+        <h1>Main Program</h1>
+        <hr>
+      </div>
+      
+      <div class="cardGrid">
+        <div class="card">
+          <div class="card-icon">
+            <i class="fas fa-camera"></i>
+          </div>
+          <div class="card-icon">
+            <h3 class="card-heading">Homes</h3>
+          </div>
+          <p class="card-description">Discover a wide range of homes for every budget</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="card-icon">
+            <h3 class="card-heading">Approved Locations</h3>
+          </div>
+          <p class="card-description">Choose a location from our pool of government approved sites</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <i class="fas fa-image"></i>
+          </div>
+          <div class="card-icon">
+            <h3 class="card-heading">Inspiring Architecture</h3>
+          </div>
+          <p class="card-description">Choose from our amazing collection of Architectural designs</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="card-icon">
+            <h3 class="card-heading">Serene Neighbourhood</h3>
+          </div>
+          <p class="card-description">Be a part of our serene neighbourhood</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <div class="card-icon">
+            <h3 class="card-heading">Facilities</h3>
+          </div>
+          <p class="card-description">Use our amzing recreational facilities both for kids and adults </p>
+        </div>
+
+      </div>
+
+      <button id="programButton" type="button">Join Dliz Homes 2023</button>
+      <div id="featured"></div>
+   </section>
+
+   <!-- =============== Featured Instructors ==================== -->
+
+   <section class="featuredContainer">
+    <div class="featuredHeading">
+      <h1>Featured Homes</h1>
+      <hr>
+    </div> 
+    <div id="instructors"></div>
+
+    <button class="seeMore" id="see-more-btn" type="button">
+      <a href="#" class="seeMoreText">MORE</a>
+      <i class="fa fa-chevron-down"></i>
+    </button>
+ </section>
+
+ <!-- ========== Sponsor ================== -->
+
+    <section class="sponsorContainer" id="sponsor">
+      <div class="sponsorHeading">
+        <h1>Sponsor</h1>
+        <hr>
+      </div>  
+    <div class="sponsorGrid">
+      <div class="sponsorCard">
+        <i class="fa-solid fa-blog fa-xl"></i><p>Blog</p>
+      </div>
+      <div class="sponsorCard">
+        <i class="fa-brands fa-google fa-xl"></i><p>Google</p>
+      </div>
+      <div class="sponsorCard">
+        <i class="fa-brands fa-joomla fa-xl"></i><p>Joomla</p>
+      </div>
+      <div class="sponsorCard">
+        <i class="fa-brands fa-stumbleupon fa-xl"></i><p>Stumbleupon</p>
+      </div>
+      <div class="sponsorCard">
+        <i class="fa-brands fa-yahoo fa-xl"></i><p>Yahoo</p>
+      </div>
+    </div>
+    
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footerLogo"><a href="#"><img src="./assets/logo1.png" alt=""></a>
+      <p>2023 Dliz's Homes <br>All rights reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
