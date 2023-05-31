@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="assests/css/style.css">
-  <script src="https://kit.fontawesome.com/8d20eebc7a.js" crossorigin="anonymous"></script>
-
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dliz Homes | home</title>
+  <title>Delis videography</title>
+
+  <link rel="stylesheet" href="./stylesheets/index.css">
+  <script src="https://kit.fontawesome.com/8d20eebc7a.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
-    <section class="">
+    <section class="topHeader">
       <ul>
         <li><i class="fab fa-facebook-square fa-lg"></i></li>
         <li><i class="fab fa-twitter-square fa-lg"></i></li>
@@ -21,18 +21,18 @@
       </ul>
     </section>
 
-    <section class="navBar">
+    <section class="header">
       <a href="./index.html" class="logo">
-        <img src="" alt="logo">
+        <img src="./assets/logo1.png" alt="logo">
       </a>
   
       <!-- ============ Navigation ===================== -->
       <nav>
-        <div class="navIcon" onclick="toggleMenu()">
+        <div class="nav-icon" onclick="toggleMenu()">
           <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
         </div>
   
-        <div class="navLinksContainer">
+        <div class="nav-links-container">
           <ul class="nav-links">
             <li class="hover"><a href="./pages/about.html">About</a></li>
             <li class="hover"><a href="#programs">Program</a></li>
@@ -48,23 +48,24 @@
     
   </header>
 
+
   <main>
 
     <!-- ============= Hero Section ================ -->
     <section class="heroContainer">
       <div class="overlay"></div>
       <div class="heroContent heroText">
-        <h1>"Find Your Own Home!"</h1>
-        <p>Be your own LandLord!</p>
+        <h1>"Capture The Moments!"</h1>
+        <p>Unlock Your Videograpy <br> Potential!</p>
       </div>
 
       <div class="heroContent heroIntro">
-        <p>Know what it means to be a home owner <br>and own a piece of Earth.</p>
+        <p>Unleash your creativity with us through Videography. Capture moments. <br>Embark on a transformative journey.</p>
       </div>
 
       <div class="heroContent dateLocation gray">
-        <h1>2023.12.31 (THU) ~ 3 (FRI)</h1>
-        <p>@Bafor, Imole Street, Jtown</p>
+        <h1>2023.06.12 (THU) ~ 20 (FRI)</h1>
+        <p>Gino's Videography, Bufor road, Sokoto</p>
       </div>
       <div id="programs"></div>
     </section>
@@ -83,9 +84,9 @@
             <i class="fas fa-camera"></i>
           </div>
           <div class="card-icon">
-            <h3 class="card-heading">Homes</h3>
+            <h3 class="card-heading">Videography Courses</h3>
           </div>
-          <p class="card-description">Discover a wide range of homes for every budget</p>
+          <p class="card-description">Explore a wide range of Videography courses tailored for beginners</p>
         </div>
 
         <div class="card">
@@ -93,9 +94,9 @@
             <i class="fas fa-graduation-cap"></i>
           </div>
           <div class="card-icon">
-            <h3 class="card-heading">Approved Locations</h3>
+            <h3 class="card-heading">Certified Instructors</h3>
           </div>
-          <p class="card-description">Choose a location from our pool of government approved sites</p>
+          <p class="card-description">Learn from our team of experienced and certified instructors</p>
         </div>
 
         <div class="card">
@@ -103,9 +104,9 @@
             <i class="fas fa-image"></i>
           </div>
           <div class="card-icon">
-            <h3 class="card-heading">Inspiring Architecture</h3>
+            <h3 class="card-heading">Inspiring Gallery</h3>
           </div>
-          <p class="card-description">Choose from our amazing collection of Architectural designs</p>
+          <p class="card-description">Immerse yourself in our captivating gallery</p>
         </div>
 
         <div class="card">
@@ -113,9 +114,9 @@
             <i class="fas fa-users"></i>
           </div>
           <div class="card-icon">
-            <h3 class="card-heading">Serene Neighbourhood</h3>
+            <h3 class="card-heading">Thriving Community</h3>
           </div>
-          <p class="card-description">Be a part of our serene neighbourhood</p>
+          <p class="card-description">Join our vibrant videograpy community and connect</p>
         </div>
 
         <div class="card">
@@ -123,14 +124,14 @@
             <i class="fas fa-cogs"></i>
           </div>
           <div class="card-icon">
-            <h3 class="card-heading">Facilities</h3>
+            <h3 class="card-heading">Equipment</h3>
           </div>
-          <p class="card-description">Use our amzing recreational facilities both for kids and adults </p>
+          <p class="card-description">Discover essential recommendations and get expert advice </p>
         </div>
 
       </div>
 
-      <button id="programButton" type="button">Join Dliz Homes 2023</button>
+      <button id="programButton" type="button">Join Pixel's School 2023</button>
       <div id="featured"></div>
    </section>
 
@@ -138,7 +139,7 @@
 
    <section class="featuredContainer">
     <div class="featuredHeading">
-      <h1>Featured Homes</h1>
+      <h1>Featured Instructors</h1>
       <hr>
     </div> 
     <div id="instructors"></div>
@@ -180,8 +181,9 @@
 
   <footer>
     <div class="footerLogo"><a href="#"><img src="./assets/logo1.png" alt=""></a>
-      <p>2023 Dliz's Homes <br>All rights reserved</p>
+      <p>2023 Gino's Photography <br>All rights reserved</p>
     </div>
   </footer>
+  <script src="./Js/script.js"></script>
 </body>
 </html>
