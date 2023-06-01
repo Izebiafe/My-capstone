@@ -46,8 +46,7 @@ header {
 }
 
 .logo {
-  max-width: 90px;
-  margin-left: auto; /* Add this line to push the logo to the far right */
+  display: none;
 }
 
 .logo img {
@@ -389,6 +388,11 @@ footer {
 
   nav {
     margin-right: 0;
+  }
+
+  .logo{
+    max-width: 90px;
+    margin-left: auto;
   }
 
   .logo,
