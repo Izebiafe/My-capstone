@@ -47,6 +47,7 @@ header {
 
 .logo {
   max-width: 90px;
+  margin-left: auto; /* Add this line to push the logo to the far right */
 }
 
 .logo img {
@@ -54,7 +55,7 @@ header {
 }
 
 nav {
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .logo,
@@ -70,7 +71,7 @@ nav {
   cursor: pointer;
   position: absolute;
   top: 20px;
-  right: 20px;
+  left: 20px;
 }
 
 .nav-links-container {
