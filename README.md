@@ -82,7 +82,7 @@ Welcome to the **Gino's Photography School** Website repository! This project is
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live View]
+- [Live View](https://izebiafe.github.io/videography-capstone)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +102,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:DevaWinner/capstone.git
+  git clone git@github.com:izebiafe/capstone-videograpy.git
 ```
 ## Install
 

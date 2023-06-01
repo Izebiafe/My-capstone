@@ -278,7 +278,7 @@ button:hover {
   width: 100%;
 }
 
-.graduatesContent h1 {
+.graduatesContent h2 {
   font-size: 1.8rem;
   font-weight: 800;
   margin: 0;
@@ -300,7 +300,7 @@ button:hover {
   background-color: var(--main);
 }
 
-.sponsorHeading h1 {
+.sponsorHeading h2 {
   color: #fff;
   text-align: center;
 }
