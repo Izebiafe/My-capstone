@@ -82,7 +82,7 @@ Welcome to the **Gino's Photography School** Website repository! This project is
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live View](https://izebiafe.github.io/videography-capstone)
+- [Live View](https://izebiafe.github.io/videography-capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
