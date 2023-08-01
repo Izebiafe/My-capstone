@@ -1,189 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Delis videography</title>
-
-  <link rel="stylesheet" href="./stylesheets/index.css">
-  <script src="https://kit.fontawesome.com/8d20eebc7a.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/utilities.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Home | Creative Commons Global Summit 2015</title>
 </head>
+
 <body>
   <header>
-    <section class="topHeader">
-      <ul>
-        <li><i class="fab fa-facebook-square fa-lg"></i></li>
-        <li><i class="fab fa-twitter-square fa-lg"></i></li>
-        <li><p class="headText">English</p></li>
-        <li><p class="headText">My Page</p></li>
-        <li><p class="headText">Logout</p></li>
-      </ul>
+    <!-- navbar-top -->
+    <section class="navbar-top">
+      <div class="container flex">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#">English</a>
+        <a href="#">My pages</a>
+        <a href="#">Logout</a>
+      </div>
     </section>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/images/logo.svg" alt="logo">
+          </a>
+        </div>
+        <ul class="navbar-link flex">
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">News</a></li>
+          <button class="btn btn-outline">CC Campaign</button>
+        </ul>
+        <i class="open fa fa-bars"></i>
+        <ul class="navbar-mobile">
+          <i class="close fas fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">News</a></li>
+          <button class="btn btn-outline">CC Campaign</button>
+        </ul>
+      </div>
+    </nav>
 
-    <section class="header">
-      <a href="./index.html" class="logo">
-        <img src="./assets/logo1.png" alt="logo">
-      </a>
-  
-      <!-- ============ Navigation ===================== -->
-      <nav>
-        <div class="nav-icon" onclick="toggleMenu()">
-          <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+    <!-- showcase -->
+    <section class="showcase">
+      <div class="container">
+        <div class="showcase-text">
+          <h3>"Hello! sharing world"</h3>
+          <h1 class="title">CREATIVE COMMONS <br> GLOBAL SUMMIT <br> 2015</h1>
+          <div class="showcase-card ">
+            <p>A joyful celebration believing int the value of openness and sharing, creating <br> a positive change
+              with
+              people from over 80 countries is taken place in October, in Koria</p>
+          </div>
+          <h2>2015.10.15(THU) ~ 16(FRI)</h2>
+          <p class="showcase-p">@ National Museum of Korea, Art Center Nabi and more</p>
         </div>
-  
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li class="hover"><a href="./pages/about.html">About</a></li>
-            <li class="hover"><a href="#programs">Program</a></li>
-            <li class="hover"><a href="#featured">Instructors</a></li>
-            <li class="hover"><a href="#sponsor">Sponsor</a></li>
-            <li class="hover"><a href="#">News</a></li>
-            <li class="hover" id="campaign"><a href="#contact"><button type="button">Photo Campaign</button></a></li>
-          </ul>
-        </div>
-  
-      </nav>
+      </div>
     </section>
-    
   </header>
-
-
-  <main>
-
-    <!-- ============= Hero Section ================ -->
-    <section class="heroContainer">
-      <div class="overlay"></div>
-      <div class="heroContent heroText">
-        <h1>"Capture The Moments!"</h1>
-        <p>Unlock Your Videograpy <br> Potential!</p>
+  <main class="main">
+    <section class="program">
+      <h2 class="title-main white">Main Program</h2>
+      <div class="container">
+        <div class="program-card flex">
+          <div class="program-img">
+            <img src="assets/images/program_icon_01.png" alt="program-icon Lecture">
+          </div>
+          <h3 class="primary">Lecture</h3>
+          <p class="white">Listen to the speaker from various countries about the messages of sharing and opening.</p>
+        </div>
+        <div class="program-card flex">
+          <div class="program-img">
+            <img src="assets/images/program_icon_02.png" alt="program-icon Lecture">
+          </div>
+          <h3 class="primary">CC Exhibition</h3>
+          <p class="white">Listen to the speaker from various countries about the messages of sharing and opening.</p>
+        </div>
+        <div class="program-card flex">
+          <div class="program-img">
+            <img src="assets/images/program_icon_03.png" alt="program-icon Lecture">
+          </div>
+          <h3 class="primary">Forum</h3>
+          <p class="white">Listen to the speaker from various countries about the messages of sharing and opening.</p>
+        </div>
+        <div class="program-card flex">
+          <div class="program-img">
+            <img src="assets/images/program_icon_04.png" alt="program-icon Lecture">
+          </div>
+          <h3 class="primary">Workshop</h3>
+          <p class="white">Listen to the speaker from various countries about the messages of sharing and opening.</p>
+        </div>
+        <div class="program-card flex">
+          <div class="program-img">
+            <img src="assets/images/program_icon_05.png" alt="program-icon Lecture">
+          </div>
+          <h3 class="primary">CC Ignite</h3>
+          <p class="white">Listen to the speaker from various countries about the messages of sharing and opening.</p>
+        </div>
       </div>
-
-      <div class="heroContent heroIntro">
-        <p>Unleash your creativity with us through Videography. Capture moments. <br>Embark on a transformative journey.</p>
+      <div class="mobile-cc">
+        <a href="#">Join CC Global Summit 2015</a>
       </div>
-
-      <div class="heroContent dateLocation gray">
-        <h2>2023.06.12 (THU) ~ 20 (FRI)</h2>
-        <p>Gino's Videography, Bufor road, Sokoto</p>
+      <div class="program-dl">
+        <a href="#">SEE THE WHOLE PROGRAM</a>
       </div>
-      <div id="programs"></div>
     </section>
 
-    <!-- ============= Program Section ================ -->
-   <section class="programContainer">
-      <div class="programOverlay"></div>
-      <div>
-        <h2>Main Program</h2>
-        <hr>
+    <section class="speaker">
+      <h2 class="title-main dark">Featured Speakers</h2>
+      <div id="speakers" class="container grid">
+        
       </div>
-      
-      <div class="cardGrid">
-        <div class="card">
-          <div class="card-icon">
-            <i class="fas fa-camera"></i>
-          </div>
-          <div class="card-icon">
-            <h3 class="card-heading">Videography Courses</h3>
-          </div>
-          <p class="card-description">Explore a wide range of Videography courses tailored for beginners</p>
-        </div>
-
-        <div class="card">
-          <div class="card-icon">
-            <i class="fas fa-graduation-cap"></i>
-          </div>
-          <div class="card-icon">
-            <h3 class="card-heading">Certified Instructors</h3>
-          </div>
-          <p class="card-description">Learn from our team of experienced and certified instructors</p>
-        </div>
-
-        <div class="card">
-          <div class="card-icon">
-            <i class="fas fa-image"></i>
-          </div>
-          <div class="card-icon">
-            <h3 class="card-heading">Inspiring Gallery</h3>
-          </div>
-          <p class="card-description">Immerse yourself in our captivating gallery</p>
-        </div>
-
-        <div class="card">
-          <div class="card-icon">
-            <i class="fas fa-users"></i>
-          </div>
-          <div class="card-icon">
-            <h3 class="card-heading">Thriving Community</h3>
-          </div>
-          <p class="card-description">Join our vibrant videograpy community and connect</p>
-        </div>
-
-        <div class="card">
-          <div class="card-icon">
-            <i class="fas fa-cogs"></i>
-          </div>
-          <div class="card-icon">
-            <h3 class="card-heading">Equipment</h3>
-          </div>
-          <p class="card-description">Discover essential recommendations and get expert advice </p>
-        </div>
+      <div id="speaki" class="container grid">
 
       </div>
+      <div id="speak" class="container grid">
 
-      <button id="programButton" type="button">Join Pixel's School 2023</button>
-      <div id="featured"></div>
-   </section>
-
-   <!-- =============== Featured Instructors ==================== -->
-
-   <section class="featuredContainer">
-    <div class="featuredHeading">
-      <h2>Featured Instructors</h2>
-      <hr>
-    </div> 
-    <div id="instructors"></div>
-
-    <button class="seeMore" id="see-more-btn" type="button">
-      <a href="#" class="seeMoreText">MORE</a>
-      <i class="fa fa-chevron-down"></i>
-    </button>
- </section>
-
- <!-- ========== Sponsor ================== -->
-
-    <section class="sponsorContainer" id="sponsor">
-      <div class="sponsorHeading">
-        <h2>Sponsor</h2>
-        <hr>
-      </div>  
-    <div class="sponsorGrid">
-      <div class="sponsorCard">
-        <i class="fa-solid fa-blog fa-xl"></i><p>Blog</p>
       </div>
-      <div class="sponsorCard">
-        <i class="fa-brands fa-google fa-xl"></i><p>Google</p>
-      </div>
-      <div class="sponsorCard">
-        <i class="fa-brands fa-joomla fa-xl"></i><p>Joomla</p>
-      </div>
-      <div class="sponsorCard">
-        <i class="fa-brands fa-stumbleupon fa-xl"></i><p>Stumbleupon</p>
-      </div>
-      <div class="sponsorCard">
-        <i class="fa-brands fa-yahoo fa-xl"></i><p>Yahoo</p>
-      </div>
-    </div>
-    
     </section>
 
+    <section class="partner none">
+      <h2 class="title-main white">Partner</h2>
+      <div class="container">
+        <div class="card-img">
+          <img src="assets/images/mozilla.svg" alt="mozilla">
+        </div>
+        <div class="card-img">
+          <img src="assets/images/google.svg" alt="google">
+        </div>
+        <div class="card-img">
+          <img src="assets/images/naver.svg" alt="naver">
+        </div>
+        <div class="card-img">
+          <img src="assets/images/daumkakao.svg" alt="daumkakao">
+        </div>
+        <div class="card-img">
+          <img src="assets/images/airbnb.svg" alt="airbnb">
+        </div>
+    </section>
   </main>
 
-  <footer>
-    <div class="footerLogo"><a href="#"><img src="./assets/logo1.png" alt="logo"></a>
-      <p>2023 Gino's Videography <br>All rights reserved</p>
+  <!-- Footer -->
+  <footer class="footer none">
+    <div class="container grid">
+      <img src="assets/images/cck-logo1.png" alt="creative common korea">
+      <div class="div">
+        <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+      <p>달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다. 자세한 이용기능 내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p>
+      </div>
     </div>
   </footer>
-  <script src="./Js/script.js"></script>
+
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/display_speakers.js"></script>
 </body>
+
 </html>
