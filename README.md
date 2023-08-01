@@ -1,12 +1,4 @@
-<a name="Photography School"></a>
-
-<div align="center">
-  <img src="./assets/logo1.png" alt="logo" width="140"  height="auto" />
-  <br/>
-  <h3><b>Pixel's Photography School</b></h3>
-</div>
-
-<!-- TABLE OF CONTENTS -->
+<a name="readme-top"></a>
 
 # 📗 Table of Contents
 
@@ -17,48 +9,47 @@
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Gino's Photography School] <a name="about-project"></a>
+# 📖 My-Capstone-Project <a name="about-project"></a>
 
-Welcome to the **Gino's Photography School** Website repository! This project is an interactive website designed for a videography school, aimed at providing aspiring videographers with a comprehensive platform to learn, explore, and enhance their photography skills.
+## Project Description**
+**The Microverse Capstone Project aims to showcase the skills and knowledge acquired during the Microverse program. The project involves building a web application using the technologies and concepts learned throughout the curriculum.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+> This project was built using the following technologies:
+
 <details>
-  <summary>Frontend</summary>
+  <summary>HTML</summary>
   <ul>
-    <li><a href="https://html.com/">Html</a></li>
-    <li><a href="https://www.css3.com/">CSS</a></li>
-    <li><a href="https://www.css3.com/">JavaScript</a></li>
+    <li><a href="https://www.w3schools.com/html/" target="_blank">html</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Code Editor</summary>
+  <summary>CSS</summary>
   <ul>
-    <li><a href="https://code.visualstudio.com/">VS Code</a></li>
+    <li><a href="https://www.w3schools.com/css/" target="_blank">css</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Deployment</summary>
+  <summary>Javascript</summary>
   <ul>
-    <li><a href="https://github.com/">Github Pages</a></li>
+    <li><a href="https://www.w3schools.com/javascript/" target="_blank">Javascript</a></li>
   </ul>
 </details>
 
@@ -66,81 +57,76 @@ Welcome to the **Gino's Photography School** Website repository! This project is
 
 ### Key Features <a name="key-features"></a>
 
-- **Courses and Workshops:** Access a variety of courses and workshops tailored to different skill levels and genres of photography. From beginner basics to specialized techniques.
-
-- **Interactive Learning:** Engage in interactive learning experiences through video tutorials, assignments, quizzes, and practical exercises.
-
-- **Community and Feedback:** Connect with fellow photographers, share your work, and receive constructive feedback from experts and peers. Engage in discussions, participate in challenges, and grow together as a community.
-
-- **Portfolio Showcase:** Showcase your best work through personalized portfolios on the website. Display your talent, create an online presence, and attract potential clients or collaborators.
-
-- **Events and Contests:** Stay informed about upcoming photography events, contests, and exhibitions. Participate to gain exposure, win prizes, and connect with industry professionals.
+- **Contact form for easy communication**
+- **Information about my work experience and educational background**
+- **Detailed project descriptions with links to code repositories and live demos**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- Live Demo -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live View](https://izebiafe.github.io/videography-capstone/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<a href="https://ticoniq.github.io/Ist-Capstone-Project"> See Project 🚀</a>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+> In order to start with this project do as follows:
 
-### Prerequisites
+To get get a local copy up and running, you can follow these simple steps:
 
-In order to run this project you need to study the project's HTML and CSS code to learn the fundamentals and setup of the project.
 
-### Setup
-
-Clone this repository to your desired folder:
+### Install
+Clone the repository to your local machine using the following command:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:izebiafe/capstone-videograpy.git
+  git clone git@github.com/izebiafe/My-capstone
 ```
-## Install
-
-please first install the node package files
+Navigate to the project directory:
 
 ```sh
-npm install
+ cd My-capstone
 ```
+
+Open the index.html file in your web browser to view the project:
+```sh
+ open index.html
+```
+
+You can now make changes to the project as desired and push them back to the repository using Git.
+
+That's it! With these simple steps, you should be able to get up and running with the portfolio in no time. Happy coding!
+
+
 
 ### Usage
 
-In order to use this project you either create branch to add more feature. But in order to run the project use below commands.
+To use my portfolio, simply visit the following link: https://github.com/Izebiafe/My-capstone
 
-- npm run build (It will create a production ready file)
-- npm start (It will run the server on your machine)
+Once you arrive at the project, you can navigate through the different pages using the links provided in the navigation bar. Here is a brief overview of what you can expect to find in each section:
 
-### Run tests
+Home page: This section contains a list of the speakers. Each list includes a brief description, their qualification and educational background.
 
-I have added the linters or tests in order to avoid anykind of typos and ensure the good practices in this project. So while using this repository if you need to check your work no matters have worked on html, css and js you can use below commands:
+- **Partners: This section provides information about previous and current partner.**
 
-- In order to run the linter test on index.html or any html file. Use below command
+- **programs: This section contains information about the list of programs, including some information about the program.**
+
+- **Contact: If you have any questions or would like to get in touch, you can reach me at okolietochi@gmail.com.**
+
+
+<!-- ### Run tests
+
+To run tests, run the following command: -->
+
+<!--
+Example command:
+
 ```sh
-npx hint .
+  bin/rails test test/models/article_test.rb
 ```
+--->
 
-- In order to run the linter test on css file. Use below command
-```sh
-npx stylelint "**/*.{css, scss}"
-```
-
-- In order to run the linter test on js file. Use below command
-```sh
-npx eslint .
-```
-
-### Deployment
-
-You can deploy this project by using VS-code and injecting it to a browser through a local live server.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,11 +134,13 @@ You can deploy this project by using VS-code and injecting it to a browser throu
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Afimia Fidelis Izebiafe**
+<!-- > Mention all of the collaborators of this project. -->
+
+👤 **Afimia Fidelis**
 
 - GitHub: [@githubhandle](https://github.com/Izebiafe)
 - Twitter: [@twitterhandle](https://twitter.com/Afimia_Fidelis)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/Izebiafe/)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/Afimia)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,8 +148,11 @@ You can deploy this project by using VS-code and injecting it to a browser throu
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Home Page**
-- [ ] **About Page**
+<!-- > Describe 1 - 3 features you will add to the project. -->
+
+- [ ] **Additional pages: More pages will be added to the project to display additional content.**
+- [ ] **The ability to filter the list of speakers by profession**
+- [ ] **The ability to share a speaker's profile on social media**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,9 +160,7 @@ You can deploy this project by using VS-code and injecting it to a browser throu
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [Issues Page](../../issues/).
+If you'd like to contribute to this project, feel free to fork the repository and make changes as you see fit. Please submit a pull request with your changes and I'll review them as soon as possible.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,14 +168,7 @@ Feel free to check the [Issues Page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-I appreciate any contributions to enhance the videography School Website. To contribute, please follow these steps:
-
-- Fork the repository.
-- Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name or bugfix/your-bug-fix-name
-- Commit your changes: git commit -m 'Add some feature'
-- Push to the branch: git push origin feature/your-feature-name
-- Open a pull request to the main branch of this repository.
-- I review and merge contributions regularly. Thank you for your support!
+> I am excited to share with you my latest project on Github. As you know, Github is an essential tool for developers to showcase their skills, collaborate with others, and contribute to open-source projects. By supporting my project, you can help me improve my Github workflow skills and learn how to set up HTML & CSS linters.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,23 +176,16 @@ I appreciate any contributions to enhance the videography School Website. To con
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to express my gratitude to the following individuals and organizations for their valuable contributions and support:
+> I would like to thank the Microverse community for their support and guidance throughout this project. Special thanks to my peers and mentors for their constructive feedback and advice.
 
-[Cindy Shin:](https://www.behance.net/adagio07) For her exceptional design whose template is used for this project.
+**Give credit to everyone who inspired your codebase.**
 
-[Lilly Rum:](https://unsplash.com/@rumandraisin) For her images that is being used in the hero background.
-
-[Freepik.com](https://www.freepik.com) This website has been designed using image assets from Freepik.com.
-
-
-If I have unintentionally missed anyone who deserves acknowledgment, please let me know, and I will gladly include them.
-
-Thank you all for your contributions and for being part of my project!
+>I would like to thank the Microverse curriculum, and [Cindy Shin in Behance](https://www.behance.net/adagio07) for providing the template of the design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
-
+<!-- FAQ (optional) -->
+  
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
